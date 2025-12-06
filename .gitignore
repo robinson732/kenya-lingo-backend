@@ -1,0 +1,37 @@
+# Virtual environment (Pipenv manages this)
+.venv/
+venv/
+ENV/
+env/
+
+# Pipenv files (optional if you want to track Pipfile/Pipfile.lock)
+# Pipfile.lock
+
+# Environment variables
+.env
+instance/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Migrations (if using Flask-Migrate)
+migrations/
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Coverage / Test files
+.coverage
+htmlcov/
